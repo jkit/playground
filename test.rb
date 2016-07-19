@@ -8,4 +8,8 @@ describe "Simple" do
   it 'bananas' do
     assert false, 'failed bananas'
   end
+
+  it 'cucumbers' do
+    assert false, 'failed cucumbers'
+  end
 end
