@@ -8,4 +8,8 @@ describe "Simple" do
   it 'second' do
     assert false, 'failure number two'
   end
+
+  it 'third' do
+    assert false, 'failure number three'
+  end
 end
