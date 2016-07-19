@@ -1,9 +1,3 @@
 test:
   override:
     - ruby test.rb
-deployment:
-  release:
-    tag: /v[0-9]+(\.[0-9]+)*/
-    owner: jkit
-    commands:
-      - (true)
