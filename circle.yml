@@ -4,6 +4,7 @@ test:
 
 deployment:
   staging:
-    branch: /push_branch_.*/
+    tag: /.*/
+    owner: jkit
     commands:
       - (true)
