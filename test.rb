@@ -16,4 +16,8 @@ describe "Simple" do
   it 'fourth' do
     assert false, 'failure number four'
   end
+
+  it 'fifth' do
+    assert false, 'failure number five'
+  end
 end
