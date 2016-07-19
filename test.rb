@@ -1,7 +1,11 @@
 require "minitest/autorun"
 
 describe "Simple" do
-  it 'works' do
-    assert false, 'Forced failure'
+  it 'first' do
+    assert true
+  end
+
+  it 'second' do
+    assert false, 'failure number two'
   end
 end
