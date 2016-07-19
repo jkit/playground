@@ -2,6 +2,6 @@ require "minitest/autorun"
 
 describe "Simple" do
   it 'works' do
-    assert true
+    assert false, 'Forced failure'
   end
 end
